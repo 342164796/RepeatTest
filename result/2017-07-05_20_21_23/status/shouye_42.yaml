@@ -1,0 +1,21 @@
+{error_msg: "Traceback (most recent call last):\n  File \"E:\\test\\lib\\executecase.py\"\
+    , line 54, in execute_case\n    self.driver.keyevent(keyevent)\n  File \"E:\\\
+    test\\lib\\BasePage.py\", line 55, in keyevent\n    self.driver.keyevent(key_dict[key])\n\
+    \  File \"build\\bdist.win-amd64\\egg\\appium\\webdriver\\webdriver.py\", line\
+    \ 366, in keyevent\n    self.execute(Command.KEY_EVENT, data)\n  File \"D:\\Python27\\\
+    lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 250, in\
+    \ execute\n    response = self.command_executor.execute(driver_command, params)\n\
+    \  File \"D:\\Python27\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\"\
+    , line 464, in execute\n    return self._request(command_info[0], url, body=data)\n\
+    \  File \"D:\\Python27\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\"\
+    , line 526, in _request\n    resp = opener.open(request, timeout=self._timeout)\n\
+    \  File \"D:\\Python27\\lib\\urllib2.py\", line 429, in open\n    response = self._open(req,\
+    \ data)\n  File \"D:\\Python27\\lib\\urllib2.py\", line 447, in _open\n    '_open',\
+    \ req)\n  File \"D:\\Python27\\lib\\urllib2.py\", line 407, in _call_chain\n \
+    \   result = func(*args)\n  File \"D:\\Python27\\lib\\urllib2.py\", line 1228,\
+    \ in http_open\n    return self.do_open(httplib.HTTPConnection, req)\n  File \"\
+    D:\\Python27\\lib\\urllib2.py\", line 1201, in do_open\n    r = h.getresponse(buffering=True)\n\
+    \  File \"D:\\Python27\\lib\\httplib.py\", line 1121, in getresponse\n    response.begin()\n\
+    \  File \"D:\\Python27\\lib\\httplib.py\", line 438, in begin\n    version, status,\
+    \ reason = self._read_status()\n  File \"D:\\Python27\\lib\\httplib.py\", line\
+    \ 402, in _read_status\n    raise BadStatusLine(line)\nBadStatusLine: ''\n"}

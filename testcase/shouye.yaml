@@ -1,0 +1,10 @@
+---
+-
+  sleep: 2
+-
+ keyevent: right,right,down,ok
+-
+ keyevent: back
+-
+ sleep: 3
+

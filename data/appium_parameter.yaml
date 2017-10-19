@@ -1,0 +1,5 @@
+appPackage: com.hisense.hicloud.edca
+appActivity: .activity.EntryActivity
+#appWaitActivity: .activity.HomeMainActivity
+platformName: Android
+noSign: True
